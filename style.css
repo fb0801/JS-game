@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#game{
+ width: 20px;
+ height: 50px;
+ background-color: red;
+ position: relative; /*to make the block appear at the bottom of the screen*/
+ top: 150px;
+
+}
+
+#block{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: relative;
+    top: 130px;
+    left: 480px;
+}
+
