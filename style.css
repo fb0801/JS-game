@@ -4,7 +4,7 @@
 }
 #game{
     width: 500px;
-    height: 200px;
+    height: 220px;
     border: 1px solid black;
 }
 
@@ -29,6 +29,8 @@ animation: jump 500ms;
     left: 480px;
     animation: block 1s infinite linear; /*linear so it doesnt move weirdly*/
 }
+
+
 
 @keyframes block {
     0%{left:480px;}

@@ -1,3 +1,6 @@
+const scoreDisplay = document.querySelector('span') // get our span element where we will put the score
+let score = 0;
+
 var character =
 document.getElementById("character");
 var block = document.getElementById("block");
@@ -8,6 +11,8 @@ function jump(){
     //if statement to prevent the user from spamming the jump button
     if (character.classList != "animation"){
         character.classList.add('animate');
+        score++
+            scoreDisplay.textContent = score //display the new score
     }
     setTimeout(function(){
         character.classList.remove("animate"); //remove the jump animation
@@ -27,6 +32,8 @@ var checkDead = setInterval(function(){
             block.style.animation = "none";
             block.style.display = "none";
             alert("You lose");
-        }
+        } 
+            
+        
     
 },10);
