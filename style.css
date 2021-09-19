@@ -14,7 +14,7 @@
  background-color: red;
  position: relative; /*to make the block appear at the bottom of the screen*/
  top: 150px;
-animation: jump 1s infinite;
+animation: jump 500ms infinite;
 }
 
 #block{
