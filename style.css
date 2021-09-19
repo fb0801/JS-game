@@ -14,7 +14,7 @@
  background-color: red;
  position: relative; /*to make the block appear at the bottom of the screen*/
  top: 150px;
-
+animation: jump 1s infinite;
 }
 
 #block{
@@ -24,10 +24,18 @@
     position: relative;
     top: 130px;
     left: 480px;
-    animation: block 1s infinite;
+    animation: block 1s infinite linear; /*linear so it doesnt move weirdly*/
 }
 
 @keyframes block {
     0%{left:480px;}
     100%{left:-40px;}
+}
+
+@keyframes jump {
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+    
 }
