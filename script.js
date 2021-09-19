@@ -31,9 +31,23 @@ var checkDead = setInterval(function(){
         if(blockLeft < 20 && blockLeft > 0 && characterTop >=130){
             block.style.animation = "none";
             block.style.display = "none";
-            alert("You lose and your score is " +score);
+            alert("You lose and your final score is " +score);
         } 
             
         
     
 },10);
+
+function control(event){
+    //different keys for the user to control the block
+   
+    if(event.key ==="ArrowUp" ||event.code === "Space" || event.key==='w') {
+      
+        jump();
+    } 
+
+
+}
+
+document.addEventListener('keyup', control) // when the key is up 
+document.addEventListener('keydown', control) // when the key is down
