@@ -31,7 +31,7 @@ var checkDead = setInterval(function(){
         if(blockLeft < 20 && blockLeft > 0 && characterTop >=130){
             block.style.animation = "none";
             block.style.display = "none";
-            alert("You lose");
+            alert("You lose and your score is " +score);
         } 
             
         
