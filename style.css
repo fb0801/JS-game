@@ -17,7 +17,7 @@
 }
 .animate{
     /* a class to run the jump animation for the block*/
-animation: jump 500ms infinite;
+animation: jump 500ms;
 }
 
 #block{
