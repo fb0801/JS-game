@@ -14,6 +14,9 @@
  background-color: red;
  position: relative; /*to make the block appear at the bottom of the screen*/
  top: 150px;
+}
+.animate{
+    /* a class to run the jump animation for the block*/
 animation: jump 500ms infinite;
 }
 
