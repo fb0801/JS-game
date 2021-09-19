@@ -6,7 +6,7 @@ To make the game different from KnifeCircus we have also:
   <li>implemented a score feature which increases everytime the user jumps over the block </li>
   <li> allowed the user to to click, press w, up arrowkey or spacebar to jump </li>
   <li>changed the alert to show the score when the game ends</li>
-
+</ul>
   
   <h5>Help</h5>
   To help us we also used https://keycode.info/ to get the keycodes for the different buttons
